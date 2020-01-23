@@ -1,0 +1,44 @@
+header {
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto; }
+  header img {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    margin: auto; }
+  header h1 {
+    text-align: center; }
+
+section {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  display: -ms-grid;
+  display: grid;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+  section .tsikirkosContenedor1 {
+    position: absolute;
+    float: left;
+    border: green solid 1px;
+    width: 60%;
+    height: 300px;
+    border-collapse: collapse;
+    margin: 0; }
+  section .tsikirkosContenedor2 {
+    position: absolute;
+    float: right;
+    border: blue solid 1px;
+    width: 20%;
+    height: 300px;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0; }
